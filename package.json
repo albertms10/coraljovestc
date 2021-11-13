@@ -1,6 +1,9 @@
 {
 	"name": "coral-jove-stc",
 	"version": "0.0.1",
+	"author": "Albert Mañosa <albertmasa2@gmail.com>",
+	"license": "MIT",
+	"repository": "github:albertms10/coral-jove-stc",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
