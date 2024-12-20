@@ -3,11 +3,11 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	plugins: [
-		sveltekit(),
-		paraglide({
-			project: './project.inlang',
-			outdir: './src/lib/paraglide'
-		})
-	]
+  plugins: [
+    sveltekit(),
+    paraglide({
+      project: './project.inlang',
+      outdir: './src/lib/paraglide'
+    })
+  ]
 });
